@@ -9,23 +9,32 @@
   <title>Frontend Mentor | IP Address Tracker</title>
 </head>
 <body>
-  <header>
+  <main>
     <h1>IP Address Tracker</h1>
     <div id="inputStyle">
       <input placeholder="Search for any IP address or domain">
       <button type="submit">></button>
     </div>
-  
-    
-  </header>
-<div>
-  IP Address
-  Location
-  Timezone
-    UTC <!-- add offset value dynamically using the API -->
-  ISP
-</div>
-
+    <div id="resultBlock">
+      <div id="ipAddress" class="block">
+        <h2>IP ADDRESS</h2>
+        <p></p>
+      </div>
+      <div id="location" class="block">
+        <h2>LOCATION</h2>
+      </div>
+      <div id="timezone" class="block">
+        <h2>TIMEZONE</h2>
+        <p>UTC - </p>
+      </div>
+      <div id="isp" class="block">
+        <h2>ISP</h2>
+      </div>
+    </div>
+    </main>
+<picture>
+  <img src="" alt="result map">
+</picture>
 
   
   <div class="attribution">
