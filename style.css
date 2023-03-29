@@ -1,0 +1,48 @@
+html{
+    font-family: Rubik;
+    font-size: 18px;
+}
+@media (max-width: 376px){
+    header{
+        background-image: url("./images/pattern-bg-mobile.png");
+        color: white;
+        height: 300px;
+    }
+    h1{
+        font-size: 18px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    #inputStyle{
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }   
+    input{
+        display: block;
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+    }
+    button{
+        position: absolute;
+        height: 100%;
+        width: 15%;
+        border-radius: 0px 10px 10px 0px ;
+        top: 0;
+        right: 0;
+        background-color: black;
+        color:white;
+        border-color: black;
+    }  
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
